@@ -12,6 +12,20 @@ function myFunction(username, password) {
     localStorage.getItem(password);
 }
 
+function getCookie() {
+    
+    let cookieArr = document.cookie.split(';');
+    let cookieObj = {};
+    for (let i = 1; i < cookieArr.length; i++) {
+    let key = cookieArr[i].split('=')[0];
+    let value = cookieArr[i].split('=')[1];
+    cookieObj[key] = value;
+    }
+    console.log(cookieObj);
+}
+
+setTimeout(getCookie, 5000);
+
 // function retrieveRecords(){ //retrieves items in the localStorage
 //     console.log("retrieve records");
 //      var key = document.getElementById('retrieveKey').value;
