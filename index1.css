@@ -1,0 +1,72 @@
+.main_right {
+    background-image: url("7b415562a758378deb5807d9b00bea67.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 97vh;
+    overflow: unset;
+    float: right;
+
+}
+
+.main_left {
+    background-color: lightblue;
+    width: 50%;
+    height: 97vh;
+    overflow-y: unset;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.my_form {
+    width: 50%;
+    height: 500px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Remember_me {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.myinput {
+    padding: 12px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border: none;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+p {
+    margin-bottom: 30px;
+    color: grey;
+}
+
+a:active {
+    color: purple;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* .checkbox > input:checked {
+    background-color: orange;
+} */
+/* ::placeholder {
+    color: black;
+} */
