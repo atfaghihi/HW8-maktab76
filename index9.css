@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.one,
+.two,
+.three,
+.four {
+    flex-wrap: nowrap;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.one1,
+.two2,
+.three1,
+.four2 {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.one2,
+.two1,
+.three2,
+.four1 {
+    width: 300px;
+    height: 400px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .one,
+    .two,
+    .three,
+    .four {
+        width: 600px;
+    }
+
+}
